@@ -1,0 +1,28 @@
+{
+    "name": "SuperRailBuilder3_Rail",
+    "model": {
+        "modelFile": "SuperRailBuilder3/RailBuilder.mqo",
+        "textures": [
+            ["mat1", "textures/SuperRailBuilder3/SuperRailBuilder3.png", "AlphaBlend"],
+            ["mat2", "textures/SuperRailBuilder3/srb_help.png", "AlphaBlend"]
+        ],
+        "rendererPath": "scripts/SuperRailBuilder3/render_SuperRailBuilder3.js"
+    },
+    "buttonTexture": "textures/SuperRailBuilder3/button_SuperRailBuilder3.png",
+    "serverScriptPath": "scripts/SuperRailBuilder3/server_SuperRailBuilder3.js",
+    "playerPos": [[0, 0, 0]],
+    "vehicleType": "Car",
+    "size": [1, 1],
+    "vibration":[0.0, 0.0],
+    "friction": [0.0, 0.0],
+    "acceleration": [0.0, 0.0],
+    "maxSpeed": [0.0, 0.0],
+    "maxYaw": [0.0, 0.0],
+    "pitchCoefficient": [0.0, 0.0],
+    "yawCoefficient": [0.0, 0.0],
+    "useCustomColor": false,
+    "smoothing": true,
+    "doCulling": false,
+    "changeYawOnStopping": false,
+    "accuracy": "MEDIUM"
+}
